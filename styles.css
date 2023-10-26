@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
+
+.container_fibonacci{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 237, 215);
+    gap: 40px;
+}
+
+.container_input{
+    width: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.container_input input{
+    height: 30px;
+    border-radius: 15px;
+    width: 45%;
+    text-align: center;
+}
+
+.btn-fibo{
+    width: 50%;
+    height: 30px;
+}
+
+.lista-fibonacci{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.lista-fibonacci li{
+    display: block;
+    background-color: rgb(20, 0, 99);
+    border-radius: 50px;
+    width: 6vh;
+    text-align: center;
+    color: white;
+}
